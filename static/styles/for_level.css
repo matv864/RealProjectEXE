@@ -1,0 +1,18 @@
+div.canvas, div.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+canvas{
+  /*background-image: url("../images/city4.png");
+  background-repeat: no-repeat;*/
+  background-color: #706c6c;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, p, a{
+  text-align: center;
+}
