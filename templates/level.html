@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html lang="en">
+    	<head>
+        <!--<meta http-equiv="refresh" content="5" -->
+    		<meta charset="UTF-8">
+    		<title>Название вкладки</title>
+        <link rel='stylesheet' href='{{ url_for('static', filename='styles/for_level.css')}}'>
+        <script defer="" src="../static/script/level{{ level }}.js"></script>
+    	</head>
+    	<body>
+        <div class="main">
+          <div class="canvas">
+            <canvas class="first" width="800" height="600"></canvas>
+          </div>
+          <div class="information">
+            <h1>Приветствую на {{ level }} уровне.</h1>
+            <p>canvas</p>
+            <a href="/">жмякни, когда пройдёшь левел </a>
+          </div>
+        </div>
+    	</body>
+    </html>
